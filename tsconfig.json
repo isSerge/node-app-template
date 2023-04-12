@@ -10,7 +10,7 @@
     "noImplicitReturns": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
   "include": [
     "./src/**/*"
