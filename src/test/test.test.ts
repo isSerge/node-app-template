@@ -1,8 +1,7 @@
-import * as tap from 'tap';
+import { it } from 'node:test'
+import * as assert from 'node:assert/strict'
 import { main } from '../index';
 
-tap.test('dummy test', (t) => {
-  t.doesNotThrow(main);
-
-  t.end();
+it('dummy test', () => {
+  assert.doesNotThrow(main);
 });

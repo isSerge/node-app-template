@@ -1,5 +1,0 @@
-ts: true
-coverage: true
-check-coverage: false
-test-ignore: /dist/
-test-regex: \.test\.ts$
