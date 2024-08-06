@@ -21,7 +21,7 @@ export default [{
         "**/node_modules",
         "**/dist",
         "**/.nyc_output",
-        "eslint.config.mjs", // Exclude this file from being linted
+        "eslint.config.mjs",
     ],
 }, ...compat.extends(
     "eslint:recommended",
