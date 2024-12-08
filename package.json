@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "dev": "nodemon --watch 'src/**/*.ts' --ext ts --exec 'npm run build && node dist/index.js'",
+    "dev": "tsx watch src/index.ts",
     "lint": "eslint .",
     "test": "tsx --test src/test/*.ts"
   },
@@ -30,7 +31,6 @@
     "eslint-plugin-eslint-plugin": "^6.3.2",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.13.0",
-    "nodemon": "^3.1.7",
     "prettier": "^3.4.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"

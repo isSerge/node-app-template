@@ -1,18 +1,15 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
     "outDir": "./dist",
-    "target": "ES2021",
+    "target": "ESNext",
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
     "skipLibCheck": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noUnusedParameters": true,
-    "noUnusedLocals": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "declaration": true,
+    "resolveJsonModule": true
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }
