@@ -24,6 +24,7 @@ jobs:
       - run: npm run test
         env:
           NODE_ENV: test
+          SAMPLE_ENV_VAR: ${{ secrets.SAMPLE_ENV_VAR }}
 
   build:
     needs: test
